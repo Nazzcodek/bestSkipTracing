@@ -27,7 +27,7 @@ const Tracing = () => {
         headers.append("Content-Type", "application/json");
         setTableDisp(false);
         // You can use any AJAX library you like
-        await fetch('http://192.168.43.207:8000/tracing/', {
+        await fetch('http://166.88.141.22:8000/tracing/', {
             method: 'POST',
             headers: headers,
             body: JSON.stringify(tableData),
