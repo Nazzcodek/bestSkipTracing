@@ -9,7 +9,8 @@ import Calling2 from "../../components/Calling2";
 import { useDispatch, useSelector } from "react-redux";
 import moment from "moment";
 import usePlayAudio from "../../Hooks/usePlayAudio";
-import ClickAwayListener from "@mui/base/ClickAwayListener";
+// import ClickAwayListener from "@mui/base/ClickAwayListener";
+import ClickAwayListener from "@mui/material/ClickAwayListener";
 import useWindowSize from "../../Hooks/useWindowSize";
 import {
   CallBody,
